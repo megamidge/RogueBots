@@ -1,0 +1,896 @@
+﻿Log file open, 06/11/17 16:13:09
+LogInit:Display: Running engine for game: RB_PT_002
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-277691271) SRandInit(-277691271).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.119747
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.11-15.13.10:329][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.11-15.13.10:329][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.11-15.13.10:338][  0]LogInit: Computer: SS-XPS15
+[2017.06.11-15.13.10:338][  0]LogInit: User: sssam
+[2017.06.11-15.13.10:338][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.11-15.13.10:338][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2017.06.11-15.13.10:338][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.06.11-15.13.10:338][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.11-15.13.10:338][  0]LogMemory: Process Physical Memory: 272.24 MB used, 272.24 MB peak
+[2017.06.11-15.13.10:338][  0]LogMemory: Process Virtual Memory: 263.08 MB used, 263.08 MB peak
+[2017.06.11-15.13.10:338][  0]LogMemory: Physical Memory: 4586.88 MB used,  3423.57 MB free, 8010.45 MB total
+[2017.06.11-15.13.10:338][  0]LogMemory: Virtual Memory: 640.38 MB used,  3423.57 MB free, 134217728.00 MB total
+[2017.06.11-15.13.10:418][  0]LogInit: Using OS detected language (en-US).
+[2017.06.11-15.13.10:418][  0]LogInit: Using OS detected locale (en-GB).
+[2017.06.11-15.13.10:423][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.11-15.13.11:602][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.11-15.13.12:360][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.06.11-15.13.12:360][  0]LogD3D11RHI:       4053/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.11-15.13.12:370][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.06.11-15.13.12:370][  0]LogD3D11RHI:       128/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.11-15.13.12:372][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.11-15.13.12:372][  0]LogD3D11RHI:       0/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.11-15.13.12:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.11-15.13.12:378][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.11-15.13.12:378][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.06.11-15.13.12:378][  0]LogWindows: EnumDisplayDevices:
+[2017.06.11-15.13.12:378][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.06.11-15.13.12:378][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.06.11-15.13.12:379][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.06.11-15.13.12:379][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.11-15.13.12:379][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.06.11-15.13.12:379][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.11-15.13.12:379][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.11-15.13.12:379][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.11-15.13.13:020][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.11-15.13.13:030][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.11-15.13.13:031][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Intermediate/Shaders/WorkingDirectory/10176/).
+[2017.06.11-15.13.13:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sssam/AppData/Local/Temp/UnrealShaderWorkingDir/F037CE074177AB8E1D647C893CC755E9/'.
+[2017.06.11-15.13.13:031][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.11-15.13.14:171][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.11-15.13.14:239][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.11-15.13.14:303][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.11-15.13.14:376][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.11-15.13.14:443][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.11-15.13.14:513][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.11-15.13.14:591][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.11-15.13.14:661][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.11-15.13.14:720][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.11-15.13.14:782][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.11-15.13.14:846][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.11-15.13.14:916][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.11-15.13.14:985][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.11-15.13.15:053][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.11-15.13.15:121][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.11-15.13.15:259][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.11-15.13.15:259][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.11-15.13.15:315][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.11-15.13.15:419][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.11-15.13.15:451][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.11-15.13.15:516][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.11-15.13.15:579][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.11-15.13.15:639][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.11-15.13.15:706][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.11-15.13.15:706][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.11-15.13.16:438][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/sssam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sssam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.11-15.13.16:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.11-15.13.16:566][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.11-15.13.16:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sssam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.11-15.13.16:591][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.11-15.13.16:591][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.11-15.13.16:592][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.11-15.13.16:592][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.11-15.13.16:996][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.11-15.13.17:081][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.11-15.13.17:273][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.11-15.13.17:339][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.11-15.13.17:410][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.11-15.13.17:410][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.11-15.13.17:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.11-15.13.18:128][  0]LogNetVersion: RB_PT_002 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 979969273)
+[2017.06.11-15.13.18:194][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.06.11-15.13.18:270][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.053574 seconds
+[2017.06.11-15.13.18:278][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.11-15.13.18:278][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.11-15.13.18:278][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.11-15.13.18:352][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.11-15.13.21:515][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.11-15.13.21:571][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.11-15.13.22:943][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.11-15.13.23:498][  0]SourceControl: Info Source control is disabled
+[2017.06.11-15.13.23:565][  0]SourceControl: Info Source control is disabled
+[2017.06.11-15.13.23:638][  0]SourceControl: Info Source control is disabled
+[2017.06.11-15.13.23:703][  0]SourceControl: Info Source control is disabled
+[2017.06.11-15.13.24:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.11-15.13.25:567][  0]LogEngine: Initializing Engine...
+[2017.06.11-15.13.25:568][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.06.11-15.13.25:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.11-15.13.25:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.11-15.13.26:006][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.11-15.13.26:020][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.13.26:547][  0]LogInit: FAudioDevice initialized.
+[2017.06.11-15.13.26:590][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/sssam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.11-15.13.26:606][  0]LogInit: Texture streaming: Enabled
+[2017.06.11-15.13.26:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.11-15.13.26:999][  0]LogInit: Transaction tracking system initialized
+[2017.06.11-15.13.27:385][  0]BlueprintLog: New page: Editor Load
+[2017.06.11-15.13.28:895][  0]LocalizationService: Info Localization service is disabled
+[2017.06.11-15.13.29:974][  0]LogConsoleResponse:Display: 
+[2017.06.11-15.13.30:140][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.11-15.13.30:140][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.11-15.13.30:206][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/' took 0.01s
+[2017.06.11-15.13.31:616][  0]SourceControl: Info Source control is disabled
+[2017.06.11-15.13.31:621][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.06.11-15.13.31:637][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.06.11-15.13.31:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.06.11-15.13.31:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.06.11-15.13.31:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.06.11-15.13.31:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.06.11-15.13.31:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.06.11-15.13.31:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.06.11-15.13.31:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.06.11-15.13.31:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.06.11-15.13.31:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.06.11-15.13.31:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.06.11-15.13.31:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.06.11-15.13.31:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.06.11-15.13.31:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.06.11-15.13.31:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.06.11-15.13.31:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.06.11-15.13.31:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.06.11-15.13.31:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.06.11-15.13.31:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Fire01.uasset"
+[2017.06.11-15.13.31:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.06.11-15.13.31:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.06.11-15.13.31:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.06.11-15.13.31:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Light01.uasset"
+[2017.06.11-15.13.31:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.06.11-15.13.31:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Light02.uasset"
+[2017.06.11-15.13.31:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.06.11-15.13.31:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.06.11-15.13.31:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.06.11-15.13.31:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.06.11-15.13.31:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.06.11-15.13.31:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.06.11-15.13.31:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.06.11-15.13.31:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.06.11-15.13.31:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.06.11-15.13.32:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Steam01.uasset"
+[2017.06.11-15.13.32:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.06.11-15.13.32:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.06.11-15.13.32:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.06.11-15.13.32:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.06.11-15.13.32:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.06.11-15.13.32:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.06.11-15.13.32:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.06.11-15.13.32:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.06.11-15.13.32:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.06.11-15.13.32:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.06.11-15.13.32:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.06.11-15.13.32:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.06.11-15.13.32:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.06.11-15.13.32:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.06.11-15.13.32:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.06.11-15.13.32:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.06.11-15.13.32:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.06.11-15.13.32:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.06.11-15.13.32:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.06.11-15.13.32:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.06.11-15.13.32:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.06.11-15.13.32:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.06.11-15.13.32:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/StarterMap.umap"
+[2017.06.11-15.13.32:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.06.11-15.13.32:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.06.11-15.13.32:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.06.11-15.13.32:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.06.11-15.13.32:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.06.11-15.13.32:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.06.11-15.13.32:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.06.11-15.13.32:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.06.11-15.13.32:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.06.11-15.13.32:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.06.11-15.13.32:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.06.11-15.13.32:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.06.11-15.13.32:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.06.11-15.13.32:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.06.11-15.13.32:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.06.11-15.13.32:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.06.11-15.13.32:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.06.11-15.13.32:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.06.11-15.13.32:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.06.11-15.13.32:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.06.11-15.13.32:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.06.11-15.13.32:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.06.11-15.13.32:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.06.11-15.13.32:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.06.11-15.13.32:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.06.11-15.13.32:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.06.11-15.13.32:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.06.11-15.13.32:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.06.11-15.13.32:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.06.11-15.13.32:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.06.11-15.13.32:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.06.11-15.13.32:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.06.11-15.13.32:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.06.11-15.13.32:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.06.11-15.13.32:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.06.11-15.13.32:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.06.11-15.13.32:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.06.11-15.13.32:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.06.11-15.13.32:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.06.11-15.13.32:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.06.11-15.13.32:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.06.11-15.13.32:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.06.11-15.13.32:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.06.11-15.13.32:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.06.11-15.13.32:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.06.11-15.13.32:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.06.11-15.13.32:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.06.11-15.13.32:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.06.11-15.13.32:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.06.11-15.13.32:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.06.11-15.13.32:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.06.11-15.13.32:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.06.11-15.13.32:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.06.11-15.13.33:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.06.11-15.13.33:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.06.11-15.13.33:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.06.11-15.13.33:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.06.11-15.13.33:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.06.11-15.13.33:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.06.11-15.13.33:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.06.11-15.13.33:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.06.11-15.13.33:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.06.11-15.13.33:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.06.11-15.13.33:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.06.11-15.13.33:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.06.11-15.13.33:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Door.uasset"
+[2017.06.11-15.13.33:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.06.11-15.13.33:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.06.11-15.13.33:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.06.11-15.13.33:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.06.11-15.13.33:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.06.11-15.13.33:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.06.11-15.13.33:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.06.11-15.13.33:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.06.11-15.13.33:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.06.11-15.13.33:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.06.11-15.13.33:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.06.11-15.13.33:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.06.11-15.13.33:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.06.11-15.13.33:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.06.11-15.13.33:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.06.11-15.13.33:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.06.11-15.13.33:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.06.11-15.13.33:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.06.11-15.13.33:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.06.11-15.13.33:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.06.11-15.13.33:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.06.11-15.13.33:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.06.11-15.13.33:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.06.11-15.13.33:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.06.11-15.13.33:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.06.11-15.13.33:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.06.11-15.13.33:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.06.11-15.13.33:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.06.11-15.13.33:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.06.11-15.13.33:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.06.11-15.13.33:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.06.11-15.13.33:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.06.11-15.13.33:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.06.11-15.13.33:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.06.11-15.13.33:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.06.11-15.13.33:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.06.11-15.13.33:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.06.11-15.13.33:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.06.11-15.13.33:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.06.11-15.13.33:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.06.11-15.13.33:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.06.11-15.13.33:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.06.11-15.13.33:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.06.11-15.13.33:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.06.11-15.13.33:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.06.11-15.13.33:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.06.11-15.13.33:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.06.11-15.13.33:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.06.11-15.13.33:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.06.11-15.13.33:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.06.11-15.13.33:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.06.11-15.13.33:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.06.11-15.13.33:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.06.11-15.13.33:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.06.11-15.13.33:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.06.11-15.13.33:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.06.11-15.13.34:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.06.11-15.13.34:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.06.11-15.13.34:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.06.11-15.13.34:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.06.11-15.13.34:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.06.11-15.13.34:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.06.11-15.13.34:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.06.11-15.13.34:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.06.11-15.13.34:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.06.11-15.13.34:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.06.11-15.13.34:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.06.11-15.13.34:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.06.11-15.13.34:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.06.11-15.13.34:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.06.11-15.13.34:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.06.11-15.13.34:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.06.11-15.13.34:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.06.11-15.13.34:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.06.11-15.13.34:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.06.11-15.13.34:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.06.11-15.13.34:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.06.11-15.13.34:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.06.11-15.13.35:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.06.11-15.13.36:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.06.11-15.13.36:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.06.11-15.13.36:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.06.11-15.13.36:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.06.11-15.13.36:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.06.11-15.13.36:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.06.11-15.13.36:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.06.11-15.13.36:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.06.11-15.13.36:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.06.11-15.13.36:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.06.11-15.13.36:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.06.11-15.13.36:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.06.11-15.13.37:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.06.11-15.13.37:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.06.11-15.13.37:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.06.11-15.13.37:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.06.11-15.13.37:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.06.11-15.13.37:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.06.11-15.13.37:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.06.11-15.13.37:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.06.11-15.13.37:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.06.11-15.13.37:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.06.11-15.13.37:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.06.11-15.13.37:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.06.11-15.13.37:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.06.11-15.13.37:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.06.11-15.13.37:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.06.11-15.13.37:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.06.11-15.13.37:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.06.11-15.13.37:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.06.11-15.13.37:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.06.11-15.13.37:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.06.11-15.13.37:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.06.11-15.13.37:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.06.11-15.13.37:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.06.11-15.13.37:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.06.11-15.13.37:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.06.11-15.13.37:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.06.11-15.13.38:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.06.11-15.13.38:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.06.11-15.13.38:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.06.11-15.13.38:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.06.11-15.13.38:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.06.11-15.13.38:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.06.11-15.13.40:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.06.11-15.13.40:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.06.11-15.13.40:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.06.11-15.13.40:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.06.11-15.13.40:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.06.11-15.13.40:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.06.11-15.13.40:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.06.11-15.13.40:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.06.11-15.13.41:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.06.11-15.13.41:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.06.11-15.13.41:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.06.11-15.13.41:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.06.11-15.13.41:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.06.11-15.13.41:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.06.11-15.13.41:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.06.11-15.13.41:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.06.11-15.13.41:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.06.11-15.13.41:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.06.11-15.13.41:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.06.11-15.13.41:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.06.11-15.13.42:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.06.11-15.13.42:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.06.11-15.13.42:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.06.11-15.13.42:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.06.11-15.13.42:545][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.06.11-15.13.42:706][  0]LogSavePackage: Save=17.90ms
+[2017.06.11-15.13.42:706][  0]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/Floor_400x4005EAF7DDB462649B7DE9C61A4DB4CFAF8.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.06.11-15.13.42:714][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.11-15.13.42:714][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.06.11-15.13.42:718][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.11-15.13.42:720][  0]LightingResults: New page: Lighting Build
+[2017.06.11-15.13.42:787][  0]MapCheck: New page: Map Check
+[2017.06.11-15.13.42:787][  0]LightingResults: New page: Lighting Build
+[2017.06.11-15.13.43:076][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.06.11-15.13.43:305][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.06.11-15.13.43:379][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.06.11-15.13.43:397][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.06.11-15.13.43:486][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.06.11-15.13.43:518][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.06.11-15.13.43:531][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.06.11-15.13.43:642][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.06.11-15.13.43:678][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.06.11-15.13.43:687][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2017.06.11-15.13.43:758][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X32)
+[2017.06.11-15.13.43:761][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.13.43:808][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.11-15.13.43:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.11-15.13.43:914][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.754ms to complete.
+[2017.06.11-15.13.43:915][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.197
+[2017.06.11-15.13.44:015][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.11-15.13.44:159][  0]LogCollectionManager: Loaded 0 collections in 0.002095 seconds
+[2017.06.11-15.13.44:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/Collections/' took 0.01s
+[2017.06.11-15.13.44:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/Developers/sssam/Collections/' took 0.01s
+[2017.06.11-15.13.44:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/Collections/' took 0.01s
+[2017.06.11-15.13.44:274][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.11-15.13.44:288][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2331 classes and 493 folders.
+[2017.06.11-15.13.44:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.06.11-15.13.44:507][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.06.11-15.13.44:602][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.06.11-15.13.44:785][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.11-15.13.44:804][  0]LogSlate: Took 0.000964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.11-15.13.44:807][  0]LogSlate: Took 0.000811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.11-15.13.44:815][  0]LogSlate: Took 0.001218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.11-15.13.44:863][  0]LogRenderer: Reallocating scene render targets to support 1168x580 NumSamples 1 (Frame:1).
+[2017.06.11-15.13.44:920][  0]LogSlate: Took 0.001196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.11-15.13.44:983][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.11-15.13.45:073][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.06.11-15.13.45:073][  0]LogLoad: (Engine Initialization) Total time: 37.29 seconds
+[2017.06.11-15.13.45:073][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.06.11-15.13.45:073][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.11-15.13.45:092][  0]LogOcInput: OculusInput pre-init called
+[2017.06.11-15.13.45:092][  0]LogHMD: Starting GearVRController plugin
+[2017.06.11-15.13.46:800][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.11-15.13.46:855][  1]LogAssetRegistry: Asset discovery search completed in 28.6834 seconds
+[2017.06.11-15.13.46:857][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.11-15.13.46:857][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.06.11-15.13.50:147][197]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.11-15.13.50:243][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.13.50:244][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.11-15.13.50:247][197]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:13:50)
+[2017.06.11-15.13.50:247][197]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.11-15.13.50:280][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032540s)
+[2017.06.11-15.13.50:281][197]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.13.50:281][197]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2017.06.11-15.13.50:282][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034533s)
+[2017.06.11-15.13.50:302][197]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.13.50:313][197]LogInit: FAudioDevice initialized.
+[2017.06.11-15.13.50:360][197]LogLoad: Game class is 'RB_PT_002GameMode'
+[2017.06.11-15.13.50:384][197]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.13.50
+[2017.06.11-15.13.50:388][197]LogWorld: Bringing up level for play took: 0.006259
+[2017.06.11-15.13.50:458][197]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.06.11-15.13.50:461][197]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.622
+[2017.06.11-15.13.50:461][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.15.12:907][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.15.12:949][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.15.19:132][512]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.11-15.15.19:142][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.15.19:142][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.11-15.15.19:143][512]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:15:19)
+[2017.06.11-15.15.19:143][512]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2017.06.11-15.15.19:165][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021260s)
+[2017.06.11-15.15.19:166][512]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.15.19:166][512]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.06.11-15.15.19:166][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022687s)
+[2017.06.11-15.15.19:185][512]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.15.19:195][512]LogInit: FAudioDevice initialized.
+[2017.06.11-15.15.19:227][512]LogLoad: Game class is 'RB_PT_002GameMode'
+[2017.06.11-15.15.19:231][512]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.15.19
+[2017.06.11-15.15.19:231][512]LogWorld: Bringing up level for play took: 0.002475
+[2017.06.11-15.15.19:233][512]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.15.19:233][512]LogTemp:Display: ParseSettings for IpNetDriver_0
+[2017.06.11-15.15.19:233][512]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.15.19:236][512]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.06.11-15.15.19:239][512]LogInit: WinSock: I am SS-XPS15 (192.168.1.78:0)
+[2017.06.11-15.15.19:239][512]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.15.19:240][512]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.06.11-15.15.19:241][512]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.158
+[2017.06.11-15.15.19:242][512]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:15:19)
+[2017.06.11-15.15.19:292][512]LogNet: Browse: 127.0.0.1//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2017.06.11-15.15.19:292][512]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.15.19:292][512]LogTemp:Display: ParseSettings for IpNetDriver_1
+[2017.06.11-15.15.19:292][512]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.06.11-15.15.19:292][512]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.11-15.15.19:293][512]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.15.19:293][512]LogNet: Game client on port 7777, rate 10000
+[2017.06.11-15.15.19:294][512]LogNetVersion: RB_PT_002 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 83013463)
+[2017.06.11-15.15.19:294][512]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.11-15.15.19:299][512]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.216
+[2017.06.11-15.15.19:308][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.15.19:310][512]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53390
+[2017.06.11-15.15.19:310][512]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 070037021165214176073251168194137069196098217032214179233045
+[2017.06.11-15.15.19:348][512]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 070037021165214176073251168194137069196098217032214179233045
+[2017.06.11-15.15.19:390][513]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53390
+[2017.06.11-15.15.19:390][513]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53390
+[2017.06.11-15.15.19:391][513]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.15.19:391][513]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/17 16:15:19, [UNetConnection] RemoteAddr: 127.0.0.1:53390, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.15.19:391][513]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53390, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.15.19:391][513]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.06.11-15.15.19:391][513]LogNet: Remote platform little endian=1
+[2017.06.11-15.15.19:391][513]LogNet: This platform little endian=1
+[2017.06.11-15.15.19:407][514]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap userId: Invalid
+[2017.06.11-15.15.19:410][514]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/RB_PT_002.RB_PT_002GameMode)
+[2017.06.11-15.15.19:411][514]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/RB_PT_002.RB_PT_002GameMode
+[2017.06.11-15.15.19:421][514]Cmd: MEM
+[2017.06.11-15.15.19:436][514]LogMemory: Platform Memory Stats for Windows
+[2017.06.11-15.15.19:436][514]LogMemory: Process Physical Memory: 1162.71 MB used, 1257.77 MB peak
+[2017.06.11-15.15.19:436][514]LogMemory: Process Virtual Memory: 1714.10 MB used, 1720.61 MB peak
+[2017.06.11-15.15.19:436][514]LogMemory: Physical Memory: 6370.80 MB used,  1639.65 MB free, 8010.45 MB total
+[2017.06.11-15.15.19:436][514]LogMemory: Virtual Memory: 2557.63 MB used,  1639.65 MB free, 134217728.00 MB total
+[2017.06.11-15.15.19:436][514]LogMemory: 
+[2017.06.11-15.15.19:436][514]Allocator Stats for TBB: (not implemented)
+[2017.06.11-15.15.19:461][514]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.15.19:462][514]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.15.19:465][514]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.15.19
+[2017.06.11-15.15.19:466][514]LogWorld: Bringing up level for play took: 0.002049
+[2017.06.11-15.15.19:466][514]LogLoad: Took 0.054751 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2017.06.11-15.15.19:479][515]LogNet: Client netspeed is 10000
+[2017.06.11-15.15.19:479][515]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2017.06.11-15.15.19:485][515]LogNet: Join succeeded: 258
+[2017.06.11-15.15.19:497][516]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2017.06.11-15.15.48:355][  5]LogRenderer: Reallocating scene render targets to support 1280x1016 NumSamples 1 (Frame:1492).
+[2017.06.11-15.16.40:664][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.16.40:783][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.16.40:792][122]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53390, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.16.40:792][122]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53390, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.16.40
+[2017.06.11-15.16.40:792][122]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53390, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.16.40:792][122]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.16.40:792][122]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.16.40
+[2017.06.11-15.16.40:792][122]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.16.40:797][122]LogExit: GameNetDriver None shut down
+[2017.06.11-15.16.40:797][122]LogExit: GameNetDriver None shut down
+[2017.06.11-15.16.48:822][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2017.06.11-15.17.09:169][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2017.06.11-15.17.51:293][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.11-15.17.51:896][365]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.06.11-15.17.55:265][553]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.11-15.17.55:714][553]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 112 classes and 0 folders.
+[2017.06.11-15.17.58:907][668]LogSlate: Took 0.001197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.11-15.18.14:553][552]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.11-15.18.14:564][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.14:564][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.11-15.18.14:566][552]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:18:14)
+[2017.06.11-15.18.14:566][552]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2017.06.11-15.18.14:588][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022414s)
+[2017.06.11-15.18.14:589][552]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.18.14:590][552]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2017.06.11-15.18.14:590][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024172s)
+[2017.06.11-15.18.14:648][552]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.18.14:658][552]LogInit: FAudioDevice initialized.
+[2017.06.11-15.18.14:696][552]LogLoad: Game class is 'RB_PT_002GameMode'
+[2017.06.11-15.18.14:700][552]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.18.14
+[2017.06.11-15.18.14:700][552]LogWorld: Bringing up level for play took: 0.003021
+[2017.06.11-15.18.14:701][552]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.14:701][552]LogTemp:Display: ParseSettings for IpNetDriver_2
+[2017.06.11-15.18.14:701][552]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.14:701][552]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.06.11-15.18.14:702][552]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.14:702][552]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.06.11-15.18.14:702][552]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.38
+[2017.06.11-15.18.14:703][552]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:18:14)
+[2017.06.11-15.18.14:753][552]LogNet: Browse: 127.0.0.1//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2017.06.11-15.18.14:753][552]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.14:753][552]LogTemp:Display: ParseSettings for IpNetDriver_3
+[2017.06.11-15.18.14:753][552]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.06.11-15.18.14:753][552]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.11-15.18.14:754][552]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.14:754][552]LogNet: Game client on port 7777, rate 10000
+[2017.06.11-15.18.14:754][552]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.11-15.18.14:760][552]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.323
+[2017.06.11-15.18.14:770][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.14:771][552]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56692
+[2017.06.11-15.18.14:771][552]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 213076031006249119123251186122100219063094171120237138077082
+[2017.06.11-15.18.14:772][552]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 213076031006249119123251186122100219063094171120237138077082
+[2017.06.11-15.18.14:885][553]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56692
+[2017.06.11-15.18.14:885][553]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56692
+[2017.06.11-15.18.14:885][553]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.14:885][553]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/17 16:18:14, [UNetConnection] RemoteAddr: 127.0.0.1:56692, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.18.14:885][553]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56692, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.18.14:885][553]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.06.11-15.18.14:885][553]LogNet: Remote platform little endian=1
+[2017.06.11-15.18.14:885][553]LogNet: This platform little endian=1
+[2017.06.11-15.18.14:903][554]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap userId: Invalid
+[2017.06.11-15.18.14:904][554]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/RB_PT_002.RB_PT_002GameMode)
+[2017.06.11-15.18.14:905][554]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/RB_PT_002.RB_PT_002GameMode
+[2017.06.11-15.18.14:923][554]Cmd: MEM
+[2017.06.11-15.18.14:938][554]LogMemory: Platform Memory Stats for Windows
+[2017.06.11-15.18.14:938][554]LogMemory: Process Physical Memory: 1478.34 MB used, 1481.49 MB peak
+[2017.06.11-15.18.14:938][554]LogMemory: Process Virtual Memory: 2424.13 MB used, 2424.13 MB peak
+[2017.06.11-15.18.14:938][554]LogMemory: Physical Memory: 6624.63 MB used,  1385.82 MB free, 8010.45 MB total
+[2017.06.11-15.18.14:938][554]LogMemory: Virtual Memory: 3316.98 MB used,  1385.82 MB free, 134217728.00 MB total
+[2017.06.11-15.18.14:938][554]LogMemory: 
+[2017.06.11-15.18.14:938][554]Allocator Stats for TBB: (not implemented)
+[2017.06.11-15.18.14:961][554]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.18.14:962][554]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.14:966][554]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.18.14
+[2017.06.11-15.18.14:967][554]LogWorld: Bringing up level for play took: 0.004324
+[2017.06.11-15.18.14:968][554]LogLoad: Took 0.063270 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2017.06.11-15.18.14:986][555]LogNet: Client netspeed is 10000
+[2017.06.11-15.18.14:986][555]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2017.06.11-15.18.14:988][555]LogNet: Join succeeded: 260
+[2017.06.11-15.18.40:706][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.40:887][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.40:905][ 30]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56692, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.18.40:905][ 30]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56692, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.18.40
+[2017.06.11-15.18.40:905][ 30]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56692, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.18.40:906][ 30]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.18.40:906][ 30]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.18.40
+[2017.06.11-15.18.40:906][ 30]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.18.40:908][ 30]LogExit: GameNetDriver None shut down
+[2017.06.11-15.18.40:909][ 30]LogExit: GameNetDriver None shut down
+[2017.06.11-15.18.51:096][600]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.11-15.18.51:104][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.51:104][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.11-15.18.51:106][600]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:18:51)
+[2017.06.11-15.18.51:106][600]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2017.06.11-15.18.51:128][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022137s)
+[2017.06.11-15.18.51:129][600]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.18.51:129][600]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2017.06.11-15.18.51:129][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023396s)
+[2017.06.11-15.18.51:179][600]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.18.51:188][600]LogInit: FAudioDevice initialized.
+[2017.06.11-15.18.51:222][600]LogLoad: Game class is 'RB_PT_002GameMode'
+[2017.06.11-15.18.51:225][600]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.18.51
+[2017.06.11-15.18.51:226][600]LogWorld: Bringing up level for play took: 0.002139
+[2017.06.11-15.18.51:226][600]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.51:226][600]LogTemp:Display: ParseSettings for IpNetDriver_4
+[2017.06.11-15.18.51:226][600]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.51:227][600]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.06.11-15.18.51:227][600]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.51:227][600]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.06.11-15.18.51:227][600]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.145
+[2017.06.11-15.18.51:229][600]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:18:51)
+[2017.06.11-15.18.51:278][600]LogNet: Browse: 127.0.0.1//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2017.06.11-15.18.51:278][600]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.51:278][600]LogTemp:Display: ParseSettings for IpNetDriver_5
+[2017.06.11-15.18.51:278][600]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.06.11-15.18.51:278][600]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.11-15.18.51:279][600]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.51:279][600]LogNet: Game client on port 7777, rate 10000
+[2017.06.11-15.18.51:279][600]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.11-15.18.51:286][600]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.204
+[2017.06.11-15.18.51:296][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.51:297][600]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64440
+[2017.06.11-15.18.51:297][600]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 044249202226114248034126082235229033089080060108226109018088
+[2017.06.11-15.18.51:298][600]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 044249202226114248034126082235229033089080060108226109018088
+[2017.06.11-15.18.51:415][601]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64440
+[2017.06.11-15.18.51:415][601]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64440
+[2017.06.11-15.18.51:415][601]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.18.51:415][601]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/17 16:18:51, [UNetConnection] RemoteAddr: 127.0.0.1:64440, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.18.51:415][601]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64440, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.18.51:415][601]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.06.11-15.18.51:415][601]LogNet: Remote platform little endian=1
+[2017.06.11-15.18.51:415][601]LogNet: This platform little endian=1
+[2017.06.11-15.18.51:434][602]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap userId: Invalid
+[2017.06.11-15.18.51:435][602]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/RB_PT_002.RB_PT_002GameMode)
+[2017.06.11-15.18.51:435][602]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/RB_PT_002.RB_PT_002GameMode
+[2017.06.11-15.18.51:452][602]Cmd: MEM
+[2017.06.11-15.18.51:469][602]LogMemory: Platform Memory Stats for Windows
+[2017.06.11-15.18.51:469][602]LogMemory: Process Physical Memory: 1528.05 MB used, 1577.32 MB peak
+[2017.06.11-15.18.51:469][602]LogMemory: Process Virtual Memory: 2449.38 MB used, 2611.27 MB peak
+[2017.06.11-15.18.51:469][602]LogMemory: Physical Memory: 6665.09 MB used,  1345.37 MB free, 8010.45 MB total
+[2017.06.11-15.18.51:469][602]LogMemory: Virtual Memory: 3346.79 MB used,  1345.37 MB free, 134217728.00 MB total
+[2017.06.11-15.18.51:469][602]LogMemory: 
+[2017.06.11-15.18.51:469][602]Allocator Stats for TBB: (not implemented)
+[2017.06.11-15.18.51:491][602]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.18.51:491][602]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.18.51:495][602]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.18.51
+[2017.06.11-15.18.51:496][602]LogWorld: Bringing up level for play took: 0.002966
+[2017.06.11-15.18.51:496][602]LogLoad: Took 0.061035 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2017.06.11-15.18.51:514][603]LogNet: Client netspeed is 10000
+[2017.06.11-15.18.51:514][603]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2017.06.11-15.18.51:517][603]LogNet: Join succeeded: 262
+[2017.06.11-15.18.58:428][960]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.58:603][960]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.18.58:617][960]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64440, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.18.58:617][960]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64440, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.18.58
+[2017.06.11-15.18.58:617][960]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64440, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.18.58:617][960]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.18.58:617][960]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.18.58
+[2017.06.11-15.18.58:617][960]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.18.58:620][960]LogExit: GameNetDriver None shut down
+[2017.06.11-15.18.58:621][960]LogExit: GameNetDriver None shut down
+[2017.06.11-15.19.01:079][ 91]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.11-15.19.09:700][578]LogSavePackage: Save=22.55ms
+[2017.06.11-15.19.09:700][578]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonCharacterA62222FE42234913963E729F2D9641F9.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.06.11-15.19.09:705][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2017.06.11-15.19.18:896][116]LogSlate: Took 0.001268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.11-15.20.09:281][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.11-15.20.09:292][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.20.09:292][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.11-15.20.09:294][102]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:20:09)
+[2017.06.11-15.20.09:294][102]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2017.06.11-15.20.09:315][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021187s)
+[2017.06.11-15.20.09:316][102]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.20.09:317][102]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2017.06.11-15.20.09:317][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022824s)
+[2017.06.11-15.20.09:366][102]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.11-15.20.09:375][102]LogInit: FAudioDevice initialized.
+[2017.06.11-15.20.09:406][102]LogLoad: Game class is 'RB_PT_002GameMode'
+[2017.06.11-15.20.09:409][102]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.20.09
+[2017.06.11-15.20.09:410][102]LogWorld: Bringing up level for play took: 0.001955
+[2017.06.11-15.20.09:410][102]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.20.09:410][102]LogTemp:Display: ParseSettings for IpNetDriver_6
+[2017.06.11-15.20.09:410][102]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.20.09:410][102]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.06.11-15.20.09:411][102]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.20.09:411][102]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2017.06.11-15.20.09:411][102]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.328
+[2017.06.11-15.20.09:413][102]PIE: New page: PIE session: ThirdPersonExampleMap (11 Jun 2017 17:20:09)
+[2017.06.11-15.20.09:457][102]LogNet: Browse: 127.0.0.1//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2017.06.11-15.20.09:457][102]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.20.09:457][102]LogTemp:Display: ParseSettings for IpNetDriver_7
+[2017.06.11-15.20.09:457][102]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.06.11-15.20.09:457][102]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.11-15.20.09:458][102]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.20.09:458][102]LogNet: Game client on port 7777, rate 10000
+[2017.06.11-15.20.09:459][102]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.11-15.20.09:465][102]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.382
+[2017.06.11-15.20.09:478][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.20.09:480][102]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50832
+[2017.06.11-15.20.09:480][102]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 145203047060019056002078190062067092042172132018153225161050
+[2017.06.11-15.20.09:482][102]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 145203047060019056002078190062067092042172132018153225161050
+[2017.06.11-15.20.09:547][103]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50832
+[2017.06.11-15.20.09:548][103]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50832
+[2017.06.11-15.20.09:548][103]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.11-15.20.09:548][103]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/17 16:20:09, [UNetConnection] RemoteAddr: 127.0.0.1:50832, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.20.09:548][103]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50832, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.06.11-15.20.09:548][103]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.06.11-15.20.09:548][103]LogNet: Remote platform little endian=1
+[2017.06.11-15.20.09:548][103]LogNet: This platform little endian=1
+[2017.06.11-15.20.09:562][104]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap userId: Invalid
+[2017.06.11-15.20.09:564][104]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/RB_PT_002.RB_PT_002GameMode)
+[2017.06.11-15.20.09:564][104]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/RB_PT_002.RB_PT_002GameMode
+[2017.06.11-15.20.09:584][104]Cmd: MEM
+[2017.06.11-15.20.09:600][104]LogMemory: Platform Memory Stats for Windows
+[2017.06.11-15.20.09:600][104]LogMemory: Process Physical Memory: 1538.48 MB used, 1577.32 MB peak
+[2017.06.11-15.20.09:600][104]LogMemory: Process Virtual Memory: 2502.10 MB used, 2704.48 MB peak
+[2017.06.11-15.20.09:600][104]LogMemory: Physical Memory: 6663.93 MB used,  1346.53 MB free, 8010.45 MB total
+[2017.06.11-15.20.09:600][104]LogMemory: Virtual Memory: 3423.66 MB used,  1346.53 MB free, 134217728.00 MB total
+[2017.06.11-15.20.09:600][104]LogMemory: 
+[2017.06.11-15.20.09:600][104]Allocator Stats for TBB: (not implemented)
+[2017.06.11-15.20.09:622][104]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.11-15.20.09:622][104]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.06.11-15.20.09:627][104]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.11-16.20.09
+[2017.06.11-15.20.09:628][104]LogWorld: Bringing up level for play took: 0.003926
+[2017.06.11-15.20.09:628][104]LogLoad: Took 0.063553 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2017.06.11-15.20.09:639][105]LogNet: Client netspeed is 10000
+[2017.06.11-15.20.09:639][105]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2017.06.11-15.20.09:642][105]LogNet: Join succeeded: 264
+[2017.06.11-15.20.25:525][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.20.25:688][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.11-15.20.25:710][ 58]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50832, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.20.25:711][ 58]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50832, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.20.25
+[2017.06.11-15.20.25:711][ 58]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50832, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.06.11-15.20.25:711][ 58]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.20.25:711][ 58]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.06.11-15.20.25
+[2017.06.11-15.20.25:711][ 58]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.06.11-15.20.25:716][ 58]LogExit: GameNetDriver None shut down
+[2017.06.11-15.20.25:716][ 58]LogExit: GameNetDriver None shut down
+[2017.06.11-15.20.29:506][279]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2017.06.11-15.20.43:311][993]LogWindows: LaunchURL https://www.youtube.com/playlist?list=PLZlv_N0_O1gZS5HylO_368myr-Kg2ZLwb
+[2017.06.11-15.20.59:527][143]LogSavePackage: Save=155.71ms
+[2017.06.11-15.20.59:527][143]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonExampleMapDD4975514A391ED115C6688671BB0BEA.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.11-15.20.59:534][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.06.11-15.20.59:695][143]LogSavePackage: Save=128.58ms
+[2017.06.11-15.20.59:695][143]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonExampleMap_BuiltDataFDC77FE142C40B08C4D314B5E29D73A1.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.11-15.20.59:698][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.11-15.29.37:319][696]LogSourceControl:Error: '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/' is not part of a Git repository
+[2017.06.11-15.30.59:911][315]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.06.11-15.30.59:915][315]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.11-15.30.59:968][315]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.06.11-15.30.59:968][315]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2017.06.11-15.31.00:011][315]LogSavePackage: Save=31.57ms
+[2017.06.11-15.31.00:011][315]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonCharacter_Auto1682F14844D34B97799590E951821CBA9.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2017.06.11-15.31.00:013][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2017.06.11-15.31.00:013][315]LogFileHelpers: Auto-saving content packages took 0.101
+[2017.06.11-15.31.50:049][688]SourceControl: Info Source control is disabled
+[2017.06.11-15.31.52:255][807]LogSourceControl:Error: '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/' is not part of a Git repository
+[2017.06.11-15.37.20:682][666]SourceControl: Info Source control is disabled
+[2017.06.11-15.37.26:832][ 19]LogSourceControl:Error: '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/' is not part of a Git repository
+[2017.06.11-15.37.37:879][664]SourceControl: Info On branch master
+[2017.06.11-15.37.37:879][664]SourceControl: Info Initial commit
+[2017.06.11-15.37.37:879][664]SourceControl: Info Untracked files:
+[2017.06.11-15.37.37:879][664]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.11-15.37.37:879][664]SourceControl: Info 	.gitignore
+[2017.06.11-15.37.37:879][664]SourceControl: Info 	Config/
+[2017.06.11-15.37.37:879][664]SourceControl: Info 	Content/
+[2017.06.11-15.37.37:879][664]SourceControl: Info 	RB_PT_002.uproject
+[2017.06.11-15.37.37:879][664]SourceControl: Info 	Source/
+[2017.06.11-15.37.37:879][664]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
+[2017.06.11-15.37.44:952][ 88]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.11-15.37.45:210][ 88]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/RB_PT_002.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.06.11-15.38.08:358][ 88]LogStats: FPlatformStackWalk::StackWalkAndDump - 23.148 s
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: 
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/RB_PT_002.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: Stack: 
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FPackageName::DoesPackageExist() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\coreuobject\private\misc\packagename.cpp:674]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControl.dll!SourceControlHelpers::PackageFilename_Internal() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:56]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControl.dll!SourceControlHelpers::PackageFilenames() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:107]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::PromptForCheckin() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:616]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCompleted() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:475]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCallback() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:539]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!TBaseStaticDelegateInstance<void __cdecl(TSharedRef<ISourceControlOperation,1> const & __ptr64,enum ECommandResult::Type)>::ExecuteIfSafe() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:1027]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolprovider.cpp:273]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-SourceControl.dll!FSourceControlModule::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolmodule.cpp:242]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1801]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:386]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3119]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: KERNEL32.DLL!0x0000000076E18364
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: ntdll.dll!0x0000000076F270D1
+[2017.06.11-15.38.08:359][ 88]LogOutputDevice:Error: 
+[2017.06.11-15.38.08:365][ 88]LogStats:                SubmitErrorReport -  0.000 s
+[2017.06.11-15.38.09:167][ 88]LogStats:                    SendNewReport -  0.802 s
+[2017.06.11-15.38.09:167][ 88]LogStats:             FDebug::EnsureFailed - 23.957 s
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error fatal: Unable to create 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/.git/index.lock': File exists.
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error Another git process seems to be running in this repository, e.g.
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error an editor opened by 'git commit'. Please make sure all processes
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error are terminated then try again. If it still fails, a git process
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error may have crashed in this repository earlier:
+[2017.06.11-15.38.21:227][ 88]SourceControl:Error: Error remove the file manually to continue.
+[2017.06.11-15.38.21:369][ 88]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.11-15.38.21:422][ 88]SourceControl:Error: Error error: pathspec 'C:/Users/sssam/Documents/Unreal Projects/RB_PT_002/RB_PT_002.uproject' did not match any file(s) known to git.
+[2017.06.11-15.38.24:763][273]SourceControl:Error: Error warning: LF will be replaced by CRLF in .gitignore.
+[2017.06.11-15.38.24:763][273]SourceControl:Error: Error The file will have its original line endings in your working directory.
+[2017.06.11-15.51.06:467][655]LogSavePackage: Save=557.32ms
+[2017.06.11-15.51.06:468][655]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonExampleMapE45C919744426BDE7F84DAB3035557C8.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.11-15.51.06:472][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.06.11-15.51.06:762][655]LogSavePackage: Save=145.93ms
+[2017.06.11-15.51.06:762][655]LogSavePackage: Moving '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Saved/ThirdPersonExampleMap_BuiltData005B379248AF8755D2BAB2BDF16D3AA2.tmp' to '../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.11-15.51.06:764][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sssam/Documents/Unreal Projects/RB_PT_002/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
